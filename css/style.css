@@ -1,0 +1,307 @@
+/**** GENERAL ****/
+
+
+html {
+    scroll-behavior: smooth;
+  }
+
+h1 {
+    font-family: 'Gugi', cursive;
+    height: auto;
+    width: auto;
+    border-radius: 2%;
+}
+
+p {
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+.blocks {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e4f5fc+0,9fd8ef+20,9fd8ef+20,bfe8f9+100,2ab0ed+100,bfe8f9+100 */
+background: rgb(228,245,252); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgba(228,245,252,1) 0%, rgba(159,216,239,1) 20%, rgba(159,216,239,1) 20%, rgba(191,232,249,1) 100%, rgba(42,176,237,1) 100%, rgba(191,232,249,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgba(228,245,252,1) 0%,rgba(159,216,239,1) 20%,rgba(159,216,239,1) 20%,rgba(191,232,249,1) 100%,rgba(42,176,237,1) 100%,rgba(191,232,249,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(228,245,252,1) 0%,rgba(159,216,239,1) 20%,rgba(159,216,239,1) 20%,rgba(191,232,249,1) 100%,rgba(42,176,237,1) 100%,rgba(191,232,249,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f5fc', endColorstr='#bfe8f9',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+/**** NAV ****/
+
+#mainNavbar{
+    height: 70px;
+}
+
+.nav-item a {
+    font-family: 'Gugi', cursive;
+    font-size: 1.1em;
+    margin-left: 20px;
+}
+
+#mainNavbar a {
+    font-family: 'Gugi', cursive;
+    color: black;
+}
+
+/** !important Used here because there are multiple links **/
+.nav-item a:hover {
+    color: red !important;
+    transition: 0.4s !important;
+}
+
+#mainNavbar {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e0f3fa+0,d8f0fc+50,b8e2f6+51,b6dffd+100;Shape+2+Style */
+background: rgb(224,243,250); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgba(224,243,250,1) 0%, rgba(216,240,252,1) 50%, rgba(184,226,246,1) 51%, rgba(182,223,253,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgba(224,243,250,1) 0%,rgba(216,240,252,1) 50%,rgba(184,226,246,1) 51%,rgba(182,223,253,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(224,243,250,1) 0%,rgba(216,240,252,1) 50%,rgba(184,226,246,1) 51%,rgba(182,223,253,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0f3fa', endColorstr='#b6dffd',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+/**** MAIN SECTION ****/
+
+#mainSection {
+    color: white;
+}
+
+#mainPage {
+    background-color: #63A8C7;
+}
+
+#mainHeader h1 {
+    color: white;
+    font-size: 4em;
+    border-radius: 5%;
+}
+
+#sloganDiv {
+    font-family: 'PT Sans Caption', sans-serif;
+    border-radius: 5%;
+}
+
+#sloganDiv h4 {
+    font-size: 2em;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+.jumbotron {
+    margin: 0 !important;
+    height: 800px;
+    background-image: url("/img/space.jpg");
+    background-size: cover;
+    background-position: top;
+    border-radius: 0 !important;
+    background-repeat: no-repeat;
+  }
+
+  .jumbotron-heading {
+      padding-top: 7px;
+  }
+
+#mainTitleDiv {
+    padding: 10px 50px 10px 50px;
+    height: auto;
+    width: auto;
+    border-radius: 2%;
+}
+
+#mainCallBtn {
+    margin-top: 30px;
+    font-size: 1em;
+    width: 150px;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+/*** ABOUT ***/
+
+.about {
+    position: relative;
+    box-shadow: 5px 5px #c6c6c6, 10px 10px #969696, 15px 15px #565656;
+    top: -100px;
+    border-radius: 2%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.about h1 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#aboutImgDiv img {
+    border-radius: 50%;
+}
+
+.about p {
+    margin-top: 50px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.6em;
+}
+
+#aboutImgDiv img {
+    height: 250px;
+}
+
+/*** PORTFOLIO ***/
+
+.portfolio {
+    border-radius: 2%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    box-shadow: 5px 5px #c6c6c6, 10px 10px #969696, 15px 15px #565656;
+}
+
+/*** CONTACT ***/
+
+.contact {
+    margin-top: 100px;
+    border-radius: 2%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    box-shadow: 5px 5px #c6c6c6, 10px 10px #969696, 15px 15px #565656;
+}
+
+.contact h1 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+/*** FOOTER ***/
+
+footer {
+    margin-top: 70px;
+    padding-bottom: 20px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e0f3fa+0,d8f0fc+50,b8e2f6+51,b6dffd+100;Shape+2+Style */
+background: rgb(224,243,250); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgba(224,243,250,1) 0%, rgba(216,240,252,1) 50%, rgba(184,226,246,1) 51%, rgba(182,223,253,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgba(224,243,250,1) 0%,rgba(216,240,252,1) 50%,rgba(184,226,246,1) 51%,rgba(182,223,253,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(224,243,250,1) 0%,rgba(216,240,252,1) 50%,rgba(184,226,246,1) 51%,rgba(182,223,253,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0f3fa', endColorstr='#b6dffd',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+footer h6 {
+    padding-top: 20px;
+    font-family: 'Gugi', cursive;
+}
+
+footer p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/**** MEDIA QUERIES ****/
+
+
+/** MEDIA QUERIES FOR SMALL MOBILES **/
+@media only screen and (min-width:250px) and (max-width:450px){
+    
+    /**JUMBOTRON SECTION**/
+
+    .jumbotron {
+        background-position: right;
+      }
+
+    #mainHeader h1 {
+        color: white;
+        font-size: 1.5em;
+        border-radius: 5%;
+       
+    }
+
+    #sloganDiv {
+        padding-top: 15px;
+        font-family: 'Raleway', sans-serif;
+        border-radius: 5%;
+    }
+
+    /** ABOUT **/
+
+    #aboutImgDiv img {
+        height: 150px;
+    }
+
+    .about p {
+        margin-top: 50px;
+        font-family: 'Nunito', sans-serif;
+        font-size: 1em;
+    }
+}
+
+/** MEDIA QUERIES FOR LARGER DEVICES **/
+@media only screen and (min-width:451px) and (max-width:800px){
+    
+    /**JUMBOTRON SECTION**/
+
+    .jumbotron {
+        background-position: right;
+      }
+
+    #mainHeader h1 {
+        color: white;
+        font-size: 2em;
+        border-radius: 5%;
+       
+    }
+
+    #sloganDiv {
+        padding-top: 15px;
+        font-family: 'Raleway', sans-serif;
+        border-radius: 5%;
+    }
+
+    /** ABOUT **/
+
+    #aboutImgDiv img {
+        height: 150px;
+    }
+
+    .about p {
+        margin-top: 50px;
+        font-family: 'Nunito', sans-serif;
+        font-size: 1em;
+    }
+}
+
+/** MEDIA QUERIES FOR DESKTOPS **/
+@media only screen and (min-width:801px) and (max-width: 1200px) {
+    
+    /**JUMBOTRON SECTION**/
+
+    .jumbotron {
+        background-position: bottom;
+      }
+
+    #mainHeader h1 {
+        color: white;
+        font-size: 3em;
+        border-radius: 5%;
+       
+    }
+
+    #sloganDiv {
+        padding-top: 15px;
+        font-family: 'Raleway', sans-serif;
+        border-radius: 5%;
+    }
+
+    /** ABOUT **/
+
+    #aboutImgDiv img {
+        height: 150px;
+    }
+
+    .about p {
+        margin-top: 50px;
+        font-family: 'Nunito', sans-serif;
+        font-size: 1em;
+    }
+}
+
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
