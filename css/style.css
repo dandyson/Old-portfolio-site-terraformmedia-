@@ -17,15 +17,13 @@ p {
 }
 
 .blocks {
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e4f5fc+0,9fd8ef+20,9fd8ef+20,bfe8f9+100,2ab0ed+100,bfe8f9+100 */
-background: rgb(228,245,252); /* Old browsers */
-background: -moz-linear-gradient(-45deg, rgba(228,245,252,1) 0%, rgba(159,216,239,1) 20%, rgba(159,216,239,1) 20%, rgba(191,232,249,1) 100%, rgba(42,176,237,1) 100%, rgba(191,232,249,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg, rgba(228,245,252,1) 0%,rgba(159,216,239,1) 20%,rgba(159,216,239,1) 20%,rgba(191,232,249,1) 100%,rgba(42,176,237,1) 100%,rgba(191,232,249,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg, rgba(228,245,252,1) 0%,rgba(159,216,239,1) 20%,rgba(159,216,239,1) 20%,rgba(191,232,249,1) 100%,rgba(42,176,237,1) 100%,rgba(191,232,249,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f5fc', endColorstr='#bfe8f9',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+background-image: url("../img/openspace.jpg");
+background-size: cover;
+background-position: top;
 }
 
 /**** NAV ****/
+
 
 #mainNavbar{
     height: 70px;
@@ -131,10 +129,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0f3fa', end
     border-radius: 50%;
 }
 
+#aboutTextDiv {
+    background-color: #B8E9F0;
+    border-radius: 2%;
+}
+
 .about p {
     margin-top: 50px;
     font-family: 'Nunito', sans-serif;
     font-size: 1.6em;
+    padding: 25px;
 }
 
 #aboutImgDiv img {
@@ -152,6 +156,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0f3fa', end
 
 /*** CONTACT ***/
 
+#contactFormDiv {
+    background-color: #B8E9F0;
+    margin-bottom: 20px;
+    padding: 25px;
+    border-radius: 5%;
+}
+
 .contact {
     margin-top: 100px;
     border-radius: 2%;
@@ -163,6 +174,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0f3fa', end
 .contact h1 {
     margin-top: 20px;
     margin-bottom: 50px;
+}
+
+#contactFormDiv {
+
 }
 
 /*** FOOTER ***/
@@ -195,10 +210,22 @@ footer p {
 /** MEDIA QUERIES FOR SMALL MOBILES **/
 @media only screen and (min-width:250px) and (max-width:450px){
     
+    /**NAV**/
+    
+    .navbar-brand {
+        font-size: 1em !important;
+    }
+
+    .navbar-brand img {
+        height: 50px;
+        width: 50px;
+        margin-right: 5px;
+    }
+
     /**JUMBOTRON SECTION**/
 
     .jumbotron {
-        background-position: right;
+        background-position: center bottom;
       }
 
     #mainHeader h1 {
@@ -209,10 +236,12 @@ footer p {
     }
 
     #sloganDiv {
-        padding-top: 15px;
+        padding-top: 35px;
+        padding-bottom: 50px;
+        font-size: .6em;
         font-family: 'Raleway', sans-serif;
-        border-radius: 5%;
     }
+
 
     /** ABOUT **/
 
@@ -229,7 +258,19 @@ footer p {
 
 /** MEDIA QUERIES FOR LARGER DEVICES **/
 @media only screen and (min-width:451px) and (max-width:800px){
+     
+    /**NAV**/
     
+     .navbar-brand {
+        font-size: 1em !important;
+    }
+
+    .navbar-brand img {
+        height: 50px;
+        width: 50px;
+        margin-right: 5px;
+    }
+
     /**JUMBOTRON SECTION**/
 
     .jumbotron {
@@ -262,8 +303,22 @@ footer p {
     }
 }
 
+
 /** MEDIA QUERIES FOR DESKTOPS **/
-@media only screen and (min-width:801px) and (max-width: 1200px) {
+@media only screen and (min-width:801px) and (max-width: 1000px) {
+    
+        /**NAV**/
+    
+        .navbar-brand {
+            font-size: 1em !important;
+        }
+    
+        .navbar-brand img {
+            height: 50px;
+            width: 50px;
+            margin-right: 5px;
+        }
+    
     
     /**JUMBOTRON SECTION**/
 
