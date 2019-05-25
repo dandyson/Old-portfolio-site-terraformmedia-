@@ -5,11 +5,15 @@ html {
     scroll-behavior: smooth;
   }
 
-h1 {
+h1, h3 {
     font-family: 'Gugi', cursive;
     height: auto;
     width: auto;
     border-radius: 2%;
+}
+
+h3 {
+    padding: 10px;
 }
 
 p {
