@@ -36,30 +36,30 @@
 	<!--NAVBAR-->
 	<div id="topDiv">
 		<div class="container">
-			<nav class="navbar navbar-expand-lg navbar-light navbar-trans">
-				<a class="navbar-brand" href="#">
-					<img src="img/terraformmedia_logo.png" width="75" height="75" class="d-inline-block align-top"
-						alt="">
-					<span>Terraform Media</span>
-				</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-					aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-					<div class="navbar-nav ml-auto">
-						<a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-						<a class="nav-item nav-link" href="#">Portfolio</a>
-						<a class="nav-item nav-link" href="#">Contact</a>
-					</div>
-				</div>
-			</nav>
+			<!-- Image and text -->
+<!-- Navbar-->
+<header class="header">
+    <nav class="navbar navbar-expand-lg py-3">
+		<img src="img/terraformmedia_logo.png" width="60" height="60" class="d-inline-block align-top" alt="">
+		<div class="container"><a href="#" class="navbar-brand font-weight-bold" id="titleText">Terraform Media</a>
+            <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
+            
+            <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a href="#" class="nav-link font-weight-bold">Home <span class="sr-only">(current)</span></a></li>
+                    <li class="nav-item"><a href="#portSec" class="nav-link font-weight-bold">Portfolio</a></li>
+                    <li class="nav-item"><a href="#contactSec" class="nav-link font-weight-bold">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 		</div>
+
 
 		<!--MAIN ABOUT SECTION-->
 		<div class="container" id="aboutDiv">
 			<div class="row">
-				<div class="col">
+				<div class="col text-center">
 					<img src="img/me.jpg" alt="Dan Image" id="danImg">
 				</div>
 				<div class="col">
@@ -72,7 +72,7 @@
 			<!--HOOK TEXT-->
 			<div class="container">
 				<div id="hookTextDiv">
-					<h1 id="hookText">See my work<i class="fa fa-arrow-circle-down" aria-hidden="true"></i></h1>
+					<h1 id="hookText">See my work <a href="#portSec"> <i class="fa fa-arrow-circle-down" aria-hidden="true"></i></a></h1>
 				</div>
 
 			</div>
@@ -89,6 +89,10 @@
 				<div class="card-body">
 					<h3 class="card-title">Dan Dyson Drums - Website Design</h3>
 					<p class="card-text">Made with Wordpress using the OceanWP theme.</p>
+					<form action="https://www.dandysondrums.com/" method="get" target="_blank">
+						<button class="btn btn-primary">View Live</button>
+					 </form>
+					
 				</div>
 			</div>
 		</div>
@@ -98,6 +102,9 @@
 				<div class="card-body">
 					<h3 class="card-title">The Self Help Place - Web Design & Development</h3>
 					<p class="card-text">A Self-Help Blog that was created in December 2018 - Made with Wordpress using the 'Hestia Pro' theme.</p>
+					<form action="https://www.theselfhelpplace.com/" method="get" target="_blank">
+						<button class="btn btn-primary">View Live</button>
+					 </form>
 				</div>
 			</div>
 			</div>
@@ -107,18 +114,49 @@
 				<div class="card-body">
 					<h3 class="card-title">Tip Calculator - Javascript</h3>
 					<p class="card-text">Made using HTML, CSS and Vanilla Javascript.</p>
+					<form action="https://codepen.io/dyson297/pen/mYxxjd" method="get" target="_blank">
+						<button class="btn btn-primary">View Live</button>
+					 </form>
+					 <br />
+					<form action="https://github.com/terraformmedia/tipcalculator" method="get" target="_blank">
+						<button class="btn btn-primary">View on Github   <i class="fa fa-github"></i></button>
+					</form>
+					</div>
 				</div>
 			</div>
-		</div>
+	
 		<div class="portCards">
 			<div class="card mb-3 text-center">
 				<a href="https://codepen.io/dyson297/pen/NWWxOam" target="_blank"><img class="card-img-top" src="img/shoppinglist.png" alt="Card image cap"></a>
 				<div class="card-body">
 					<h3 class="card-title">Shopping List</h3>
 					<p class="card-text">A shopping List made with HTML, CSS and Vanilla Javascript</p>
+					<form action="https://codepen.io/dyson297/pen/NWWxOam" method="get" target="_blank">
+						<button class="btn btn-primary">View Live</button>
+					 </form>
+					 <br />
+					 <form action="https://github.com/terraformmedia/shoppinglist" method="get" target="_blank">
+						<button class="btn btn-primary">View on Github   <i class="fa fa-github"></i></button>
+					</form>
 				</div>
 			</div>
 			</div>
+			<div class="portCards">
+				<div class="card mb-3 text-center">
+					<a href="https://codepen.io/dyson297/pen/NWWxOam" target="_blank"><img class="card-img-top" src="img/randomrestaurantnamegenerator.png" alt="Card image cap"></a>
+					<div class="card-body">
+						<h3 class="card-title">Random Restaurant Name Generator</h3>
+						<p class="card-text">Made with HTML, CSS and Vanilla Javascript</p>
+						<form action="https://codepen.io/dyson297/pen/ExaRLRR" method="get" target="_blank">
+							<button class="btn btn-primary">View Live</button>
+						 </form>
+						 <br />
+						 <form action="https://github.com/terraformmedia/randomRestaurantNameGenerator" method="get" target="_blank">
+							<button class="btn btn-primary">View on Github   <i class="fa fa-github"></i></button>
+						</form>
+					</div>
+				</div>
+				</div>
 	</div>
 
 	<!--CONTACT-->
@@ -138,9 +176,9 @@
 	</div>
 
 	<div class="text-center" id="icons">
-		<i class="fa fa-github"></i>
-		<i class="fa fa-linkedin-square" aria-hidden="true"></i>
-		<i class="fa fa-envelope-square" aria-hidden="true"></i>
+		<a href="https://www.github.com/terraformmedia"><i class="fa fa-github"></i></a>
+		<a href="https://www.linkedin.com/in/dandyson297/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+		<a href="mailto:dannydyson297@gmail.com"><i class="fa fa-envelope-square" aria-hidden="true"></i></a>
 	</div>
 
 	<div class="footer-copyright text-center py-3" id="copyDiv">
@@ -148,10 +186,11 @@
 	</div>
 
   </footer>
- 
-
 	<script src="js/main.js" async defer></script>
 	<script src="js/bootstrap.js" async defer></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -4,7 +4,7 @@ body {
     margin: 0 auto;
 }
 
-h1, h3 {
+h1, h3, button {
     font-family: 'Raleway', sans-serif;
     font-weight: 900 !important;
 }
@@ -14,32 +14,28 @@ p {
     font-weight: 500;
 }
 
+a {
+    color: white !important;
+}
+
+.container button {
+    color: white !important;
+}
+
 /** NAVBAR **/
 
-.navbar a {
-    color: #f2f2f2 !important;
-    font-size: 25px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
+#titleText {
+    font-size: 1.5em;
 }
 
 .navbar {
     position: absolute;
-    top: 50px;
+    top: 75px;
 }
 
-span {
-    margin-left: 25px;
-    position: absolute;
-    top: 35px;
-}
-
-.navbar-trans {
-    background: transparent;
-}
-
-.navbar-nav a {
-    margin-left: 50px !important;
+.navbar-nav li a {
+    font-size: 1.5em;
+    margin-left: 75px;
     transition: all .2s ease-in-out;
 }
 
@@ -61,13 +57,13 @@ span {
 #danImg {
     border-radius: 50%;
     height: 250px;
-    margin-left: 100px;
     border: 5px solid black;
 } 
 
 #aboutDiv {
     color: #f2f2f2;
-    margin-top: 150px;
+    position: relative;
+    top: 200px;
 }
 
 #aboutText {
@@ -79,7 +75,6 @@ span {
 
 #hookTextDiv {
     height: 75px;
-    text-align: center;
     margin-left: 50px;
     padding-top: 12px;
     border-radius: 15px;
@@ -107,7 +102,7 @@ span {
 /**PORTFOLIO**/
 
 .portfolio {
-    border-radius: 2%;
+    border-radius: 20px;
     padding-top: 30px;
     padding-bottom: 50px;
     box-shadow: 5px 5px #c6c6c6, 10px 10px #969696, 15px 15px #565656;
@@ -124,7 +119,7 @@ span {
     color: #fff;
     margin: 0 auto;
     width: 75%;
-    border-radius: 2%;
+    border-radius: 20px;
     margin-top: 50px;
     margin-bottom: 50px;
     padding: 50px;
@@ -181,6 +176,7 @@ span {
 
 footer {
     height: 200px;
+    padding-top: 20px;
     background: #00235b;
     color: white;
 }
@@ -191,7 +187,7 @@ footer {
 }
 
 #icons {
-    margin-top: 25px;
+    margin-top: 5px;
     font-size: 50px;
 }
 
@@ -225,3 +221,188 @@ footer a:hover {
     transform: scale(1.6); 
     cursor: pointer;
 }
+
+/****************** MEDIA QUERIES  ******************/
+
+/* Extra Small devices (phones, 380px and down) */
+
+@media only screen and (max-width: 380px) {
+    /*NAVBAR*/
+    .navbar img {
+        margin: 25px auto;
+        height: 75px;
+        width: 75px;
+    }
+    /*ABOUTDIV*/
+    
+    #danImg {
+        border-radius: 50%;
+        height: 175px;
+        margin-top: -100px;
+        border: 5px solid black;
+    } 
+
+    #aboutText {
+        margin-top: 30px;
+        font-size: 1.7em;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    /*HOOKTEXTDIV*/
+
+    #hookTextDiv {
+        height: 75px;
+        margin-left: 0px;
+        text-align: center;
+        padding-top: 0px;
+        border-radius: 15px;
+        -moz-border-radius: 15px;
+    }
+
+    #hookTextDiv h1 {
+        font-size: 1.7em;
+    }
+
+    #hookTextDiv i {
+        margin-top: 30px;
+        margin-left: 5px;
+        font-size: 1.2em;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    /*PORTFOLIO DIV*/
+    #portContainer h1 {
+        font-size: 1.5em;
+    }
+
+    #portContainer h3 {
+        font-size: 1.1em;
+    }
+
+    /*CONTACT SECTION*/
+    
+    #contactSec h3 {
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (min-width: 381px) {
+        /*NAVBAR*/
+        .navbar img {
+            margin: 25px auto;
+            height: 75px;
+            width: 75px;
+        }
+        /*ABOUTDIV*/
+        
+        #danImg {
+            border-radius: 50%;
+            height: 175px;
+            margin-top: -100px;
+            border: 5px solid black;
+        } 
+    
+        #aboutText {
+            margin-top: -50px;
+            font-size: 1.7em;
+            font-weight: 700;
+            text-align: center;
+        }
+    
+        /*HOOKTEXTDIV*/
+    
+        
+        #hookTextDiv {
+            height: 75px;
+            margin-left: 0px;
+            text-align: center;
+            padding-top: 0px;
+            border-radius: 15px;
+            -moz-border-radius: 15px;
+        }
+
+        #hookText {
+            font-size: 1.7em;
+        }
+    
+        #hookTextDiv i {
+            margin-top: 30px;
+            margin-left: 5px;
+            font-size: 1.2em;
+            text-align: center;
+            transition: 0.3s;
+        }
+    
+        /*PORTFOLIO DIV*/
+        #portContainer h1 {
+            font-size: 1.5em;
+        }
+    
+        #portContainer h3 {
+            font-size: 1.1em;
+        }
+    
+        /*CONTACT SECTION*/
+        
+        #contactSec h3 {
+            font-size: 1.2em;
+        }
+}
+        
+/* Small/Medium devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    /*NAVBAR*/
+    .navbar img {
+        margin: 25px auto;
+        height: 75px;
+        width: 75px;
+    }
+    /*ABOUT DIV*/
+    #aboutText {
+        margin-top: -50px;;
+        font-size: 1.7em;
+        font-weight: 700;
+    }
+
+    /*HOOK TEXT*/
+        
+    #hookTextDiv {
+        height: 75px;
+        margin-left: 0px;
+        text-align: center;
+        padding-top: 0px;
+        border-radius: 15px;
+        -moz-border-radius: 15px;
+    }
+
+    #hookText {
+        margin-top: 50px;
+        font-size: 2em;
+    }
+
+    #hookTextDiv i {
+        margin-top: 30px;
+        margin-left: 5px;
+        font-size: 1.2em;
+        text-align: center;
+        transition: 0.3s;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    /*HOOK TEXT*/
+    #hookText {
+        margin-top: 50px;
+        font-size: 2.5em;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
+

@@ -6578,7 +6578,8 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #343a40 !important;
+  /*REMOVED THIS TO HAVE TRANSPARENT BACKGROUND*/
+  /*background-color: #343a40 !important;*/
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
