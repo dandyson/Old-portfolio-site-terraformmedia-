@@ -34,6 +34,14 @@
 		<![endif]-->
 
 	<!--NAVBAR-->
+	<div id="sidebarDiv">
+		<ul class="navbar-nav ml-auto" id="sidebarLinks">
+			<h1 id="sidebarCross">&#10006</h1>
+			<li class="nav-item active"><a href="#" class="nav-link font-weight-bold">Home <span class="sr-only">(current)</span></a></li>
+			<li class="nav-item"><a href="#portSec" class="nav-link font-weight-bold">Portfolio</a></li>
+			<li class="nav-item"><a href="#contactSec" class="nav-link font-weight-bold">Contact</a></li>
+		</ul>
+	</div>
 	<div id="topDiv">
 		<div class="container">
 			<!-- Image and text -->
@@ -42,8 +50,7 @@
     <nav class="navbar navbar-expand-lg py-3">
 		<img src="img/terraformmedia_logo.png" width="60" height="60" class="d-inline-block align-top" alt="">
 		<div class="container"><a href="#" class="navbar-brand font-weight-bold" id="titleText">Terraform Media</a>
-            <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
-            
+            <button type="button" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars" id="navToggle"></i></button> 
             <div id="navbarSupportedContent" class="collapse navbar-collapse">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active"><a href="#" class="nav-link font-weight-bold">Home <span class="sr-only">(current)</span></a></li>
@@ -52,7 +59,8 @@
                 </ul>
             </div>
         </div>
-    </nav>
+	</nav>
+	</header>
 		</div>
 
 
@@ -66,8 +74,6 @@
 					<h1 id="aboutText">Hi, I'm Dan. I'm a Front-End Web Developer.</h1>
 				</div>
 			</div>
-
-
 
 			<!--HOOK TEXT-->
 			<div class="container">
@@ -184,7 +190,6 @@
 	<div class="footer-copyright text-center py-3" id="copyDiv">
 		<p>© 2019 Copyright Terraform Media</p>
 	</div>
-
   </footer>
 	<script src="js/main.js" async defer></script>
 	<script src="js/bootstrap.js" async defer></script>
