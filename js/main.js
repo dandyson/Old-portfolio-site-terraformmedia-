@@ -3,9 +3,9 @@ let navToggle = document.getElementById("navToggle");
 let sidebarCross = document.getElementById("sidebarCross");
 
 navToggle.addEventListener("click", () => {
-    sidebarDiv.style.width = "30%";
-})
+  sidebarDiv.style.width = "30%";
+});
 
 sidebarCross.addEventListener("click", () => {
-    sidebarDiv.style.width = "0%";
-})
+  sidebarDiv.style.width = "0%";
+});
